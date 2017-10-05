@@ -16,3 +16,4 @@
 // });
 
 Route::get('/','DoctorController@index');
+Route::post('/doctors/create','DoctorController@create');
